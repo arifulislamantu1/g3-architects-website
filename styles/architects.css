@@ -118,6 +118,34 @@ main > section{
     line-height: 26px;
     margin-bottom: 30px;
 }
+/* feature section related styles */
+.features{
+    gap: 140px;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.feature-section-description{
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
 /* some facts related style */
 .facts-title{
     padding: 24px;
@@ -173,7 +201,8 @@ main > section{
 @media screen and (max-width: 576px) {
     .navbar,
      .nav-link,
-      .teams{
+      .teams,
+      .features{
         flex-direction: column;
     }
     .team-img-container,
@@ -203,7 +232,8 @@ main > section{
 
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px){
-    .teams{
+    .teams,
+    .features{
         flex-direction: column;
     }
     .our-features{
