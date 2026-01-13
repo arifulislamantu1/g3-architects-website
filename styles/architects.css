@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -208,8 +203,25 @@ main > section{
 }
 .sponsor-companies img{
     filter: grayscale(100%);
-    /* transition: filter 0.3s ease; */
 }
+
+/*  footer section related styles */
+footer {
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    height: 100px;
+    margin: 130px auto 226px;
+    
+    
+}
+
+.footer-content p{
+    text-align: center;
+    padding-top: 38px;
+}
+
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,
@@ -243,6 +255,9 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .feature-architect img{
+        max-width: 100%;
+    }
 }
 
 
@@ -266,5 +281,8 @@ main > section{
 #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .feature-architect img{
+        width: 100%;   
     }
 }
